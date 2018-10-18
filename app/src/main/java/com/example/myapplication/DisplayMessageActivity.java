@@ -19,8 +19,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         TextView textView = findViewById(R.id.message);
         textView.setText(message);
 
-        ViewGroup layout = findViewById(R.id.root);
-        layout.addView(textView);
+
     }
 
 
